@@ -15,11 +15,11 @@
               amiri: ['Amiri', 'serif'],
             },
             colors: {
-              'brand-green': '#107c57',
-              'brand-dark': '#064e3b',
-              'brand-pink': '#ec4899',
-              'brand-orange': '#f59e0b',
-              'brand-bg': '#f0fdf4',
+              'brand-green': '#107c57', // Main header green
+              'brand-dark': '#064e3b',  // Footer dark green
+              'brand-pink': '#ec4899',  // Student button
+              'brand-orange': '#f59e0b', // Register button
+              'brand-bg': '#f0fdf4',    // Light background
             }
           }
         }
@@ -30,8 +30,24 @@
         font-family: 'Cairo', sans-serif;
       }
     </style>
-  </head>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "firebase/app": "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js",
+    "firebase/firestore": "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js",
+    "firebase/": "https://esm.sh/firebase@^12.7.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/SaadQuran03/assets/index-CsZqENr5.js"></script>
+</head>
   <body class="bg-brand-bg min-h-screen flex flex-col">
     <div id="root" class="flex-grow flex flex-col"></div>
-  </body>
+</body>
 </html>
